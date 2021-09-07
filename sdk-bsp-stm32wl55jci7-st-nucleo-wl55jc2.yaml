@@ -1,0 +1,113 @@
+board:
+  buy_url_cn: N/A
+  buy_url_global: N/A
+  debug_interface: SWD
+  debugger: ST-LINK
+  description_en: N/A
+  description_zh: N/A
+  emulator_machine: ''
+  large_image: documents/images/NUCLEO-WL55JC2.png
+  name: STM32WL55JCI7-ST-NUCLEO-WL55JC2
+  price_cn: N/A CNY
+  price_global: N/A USD
+  sale_contact_cn: N/A
+  sale_contact_global: N/A
+  small_image: documents/images/s.png
+  vendor: ST
+  version: 1.0.0
+chip:
+  chip_name: STM32WL55JCI7
+  clock_source: HSE
+  device_vendor: STMicroelectronics
+  family_name: STM32
+  rx_name: PA10
+  series_name: STM32WL
+  source_freq: '8000000'
+  sub_series_name: STM32WL55
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs: []
+example_projects: []
+features:
+- multiprotocol LPWAN dual-core 32-bit (Arm® Cortex®-M4/M0+ at 48 MHz)
+- RF transceiver (150 MHz to 960 MHz frequency range) supporting LoRa®, (G)FSK, (G)MSK,
+  and BPSK modulations
+- 256-Kbyte Flash memory and 64-Kbyte SRAM
+- 3 LEDs
+- 3 user buttons and 1 reset push-button
+- On-board STLINK-V3 debugger/programmer
+- USB with Micro-B
+- Delivered with SMA antenna
+- ''
+features_zh:
+- 多协议 LPWAN 双核32位(Arm® Cortex®-M4/M0+ at 48 MHz)
+- RF传输（150 MHz to 960 MHz频率范围）支持LoRa®, (G)FSK, (G)MSK, 和 BPSK调制
+- 256KB ROM 64K SRAM
+- 3 LEDs
+- 3 用户按键 和 1 reset push按键
+- '板上STLINK-V3调试/编程 '
+- Micro-B USB
+- SMA 天线
+- ''
+pkg_type: Board_Support_Packages
+pkg_vendor: 吴磊
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - project.dep
+    - project.ewd
+    - project.ewp
+    - project.ewt
+    - project.eww
+    - project.uvoptx
+    - project.uvprojx
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - settings
+    - template.dep
+    - template.ewd
+    - template.ewp
+    - template.eww
+    - template.uvoptx
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/SConscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: 4.0.2
+    source_path_offset: ''
+    target_path_offset: rt-thread
+  project_description: STM32WL55 single core BSP
+  project_name: project_name_123
+  project_type: rt-thread|@full|@4.0.2
+yaml_version: 3
